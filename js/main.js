@@ -183,6 +183,9 @@ $(document).ready(function() {
         $(this).addClass("selected").siblings().removeClass("selected");
     })
 
+    $("li").mouseover(function() {
+        $(this).css("cursor", "pointer");
+    })
 
 
 })

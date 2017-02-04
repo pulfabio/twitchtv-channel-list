@@ -26,6 +26,10 @@ ul {
     border-bottom: 1px white solid;
 }
 
+li {
+    margin: 2px 0px 2px 0px;
+}
+
 li.selected > * {
     background-color: #a6a6a6;
 }
